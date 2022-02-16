@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Пенсия</title>
+ </head>
+ <body>
+  <script>
+    const year = prompt("Введите возвраст");
+    const forman = 65; 
+    const forwoman = 55;
+    const yearman = forman - year ;
+    const yearwoman = forwoman - year ;
+    const lastyearmen = 2022 + yearman;
+    const lastyearwomen = 2022 + yearwoman;
+
+    
+    alert ("До пенсии осталось (мужчине) " + yearman + " в " + lastyearmen + " (женщине) " + yearwoman + " в " + lastyearwomen)
+
+  </script>
+</body>
+</html>
