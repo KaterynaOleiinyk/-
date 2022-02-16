@@ -1,0 +1,16 @@
+<!DOCTYPE>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Вычислить год</title>
+ </head>
+ <body>
+  <script>
+    const year = prompt("Введите год");
+    const currentDate = new Date(); 
+    const currentYear = currentDate.getFullYear();
+    const past = currentYear - year;
+    alert ("Прошло - " + past)
+  </script>
+</body>
+</html>
